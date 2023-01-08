@@ -32,7 +32,7 @@ const tellJoke = (joke) => {
 // Fetch Jokes from JokeAPI
 const getJokes = async () => {
   try {
-    const response = await fetch('https://v2.jokeapi.dev/joke/Programming?type=single')
+    const response = await fetch('https://v2.jokeapi.dev/joke/Any?type=single')
     jokeString = await response.json();
     tellJoke(jokeString.joke)
     // Disable Button
