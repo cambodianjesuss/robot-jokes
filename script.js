@@ -18,7 +18,7 @@ const toggleButton = () => {
 // VoiceRSS Text to Speech
 const tellJoke = (joke) => {
   VoiceRSS.speech({
-    key: 'b1c0503fd35f4dddb5d5a92c93c0a757',
+    key: 'b1c0503fd35f4dddb5d5a92c93c0a757', // For testing is why exposed
     src: joke,
     hl: 'en-us',
     v: 'Linda',
